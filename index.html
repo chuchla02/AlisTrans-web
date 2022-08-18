@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="PL">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,300,900|Raleway:400,800amp;subset=latin-ext" rel="stylesheet">
+    <title>AlisTrans Firma Transportowa</title>
+    <script src="script.js" type="text/javascript"></script>
+
+    
+</head>
+<body onload="redirect();">
+        <section id="container">
+            <div class="span">
+                <div id="divHeader" class="h-100 p-5">
+                            <nav class="navbar navbar-dark navbar-expand-xl" id="TopMenuBar">
+                                <a class="navbar-brand"><img src="img/logo.png" style="width:50%"></a>
+                                     <button  style="margin-right: 1%;" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainmenu">
+                                            <span class="navbar-toggler-icon">
+                                            </span>
+                                    </button>
+                                    <div class="collapse navbar-collapse" id="mainmenu" style="width:830px">
+                                        <ul class="navbar-nav ms-auto">
+                                            <li class="nav-item" >
+                                                <a class="nav-link" href="#divHeader">Strona główna</a>
+                                            </li>
+                                            <li class="nav-item" >
+                                                <a class="nav-link" href="#divAboutUS">O nas</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#divOFFER">Oferta</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#divFLEET">Flota</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#divContact">Kontakt</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="/" onclick="createCookiePL();" value="pl" id="languagePL"><img src="img/polish.jpg" style="width:40px; border:2px solid black;"></a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="en/" onclick="createCookieEN();" value="en" id="languageEN"><img src="img/english.jpg" style="width:40px; border:2px solid black;"></a>
+                                            </li>
+                                        </div>
+                            </nav>
+                             <div id="headerTEXT" class="text-center" style="p-5">
+                                    <p>PROFESJONALNY TRANSPORT TOWARÓW &nbsp;</p>
+                             </div>
+                             <div id="underline">
+                             </div>
+                            <div id="headerTEXT2">
+                                    <p>Wykonujemy krajowy i międzynarodowy transport towarów w całej Europie i poza nią. Wliczając w to kraje Alpejskie, Skandynawię i Bałkany.
+                                    Kompleksowo obsługujemy naszych klientów w zakresie transportu i spedycji: zajmujemy się wszelkimi formalnościami przewozowymi (np. odprawa) i organizacją całości – od załadunku po rozładunek w docelowym miejscu. <br>Maszyny, okna, produkty spożywcze, materiały budowlane? <br> Przewozimy niemal wszystko!</p> 
+                            </div>
+                            <div id="buttonHeader">
+                                    <input type="button" class="buttonHeader" value="Dowiedz się więcej!" onclick="window.location.href='#divAboutUS'">
+                            </div>
+                </div>
+                <div id="divAboutUS" class="h-100" style="padding: 100px 30px 75px 30px">
+                     <div id="divAboutUsTEXT" >
+                             <p style="color:white; text-shadow: 5px 5px 5px black; font-size: 320%;">O firmie</p>
+                             <hr>
+                                <p style="font-weight: 100;">Nasz świat to ciągły ruch. Nieustanna wędrówka tysięcy towarów po całej Europie, Azji i obu Amerykach. Nasz świat to projekty naszych klientów i codzienne starania aby stale pozytywnie zaskakiwać Was naszym zaangażowaniem.
+                                 Wszystko zaczęło się 20 lat temu. W 1992 roku dwóch przyjaciół z pasji do transportu zaryzykowało swoje oszczędności kupując dwa pierwsze ciągniki siodłowe. Dziś posiadając ponad 50 samochodów ciężarowych, pasją zarażamy się nawzajem – właściciele, zarząd i ponad stu pracowników. Tworzymy zespół, który pracuje na partnerskich zasadach, dzięki czemu łatwiej nam jest przekonać do współpracy przewoźników, którzy budują z nami nowoczesną flotę ponad 300 pojazdów.
+                                 Aby być bliżej naszych klientów i skutecznie współorganizować ich łańcuchy dostaw zbudowaliśmy sieć oddziałów na terenie Polski oraz prężnie rozwijający się oddział w Niemczech.</p>
+                     <div id="buttonOffer" style="height:20vh;">
+                        <input type="button" class="buttonAboutUS" value="Zobacz naszą ofertę!" onclick="window.location.href='#divOFFER'">
+                     </div>
+                    </div>
+                </div>
+                <div id="divOFFER" class="h-100" style="padding: 100px 30px 150px 30px">
+                    <div id="headerOFFER">
+                            <p style="color:lightcoral; text-shadow: 3px 3px 3px black!important;
+                            font-size: 300%;
+                            font-weight: 400;">Nasza oferta:</p>
+                            <hr>
+                    </div>
+                    <div id="container">
+                        <div id="divOfferGrid" class="row" >
+                            <div id="offerTRUCK" class="col-xl-4">   
+                                <img src="img/truck.jpg">
+                                <p>Spedycja drogowa</p>
+                                <p style="font-weight: 100;">Przewozy drogowe to podstawa świadczenia naszych usług. Organizujemy transport krajowy oraz międzynarodowy na terenie Europy i Turcji, a naszym wyróżnikiem jest obsługa tzw. "trudnych kierunków", czyli rynków wschodnich, byłych krajów WNP (Rosja, Ukraina, Białoruś, Kirgistan, Uzbekistan, Kazachstan) i bliskowschodnich (Iran). Zapewniamy codzienny monitoring przesyłki oraz fachowe doradztwo na każdym etapie transportu. Każde nowe zamówienie jest dokładnie analizowane przez naszych specjalistów, aby wyeliminować wszelkie błędy w planowaniu danego transportu. Terminowość jest jednym z głównych atutów, które cenią sobie nasi Klienci.</p>
+                            </div>
+                            <div id="offerCARGO" class="col-xl-4">
+                                <img src="img/cargo.jpg">
+                                <p>Spedycja morska</p>
+                                <p style="font-weight: 100;"> Obsługa ładunków w ramach frachtu morskiego pozwala nam realizować dostawy nawet w najodleglejszych miejscach na świecie. Współpracujemy z największymi armatorami, a dzięki firmom partnerskim, które działają na innych kontynentach, gwarantujemy profesjonalną obsługę zlecenia na każdym etapie. Zajmujemy się organizacją transportów całokontenerowych oraz drobnicowych. Służymy pomocą przy odprawach celnych i operacjach w portach (np. pobranie kontenera z portu, ważenie, zwrot pustego kontenera). Jesteśmy w stanie zorganizować przeładunki towarów oraz składowanie w magazynach celnych.</p>
+                            </div>
+                            <div id="offerPLANE" class="col-xl-4">
+                                <img src="img/plane.jpg"> 
+                                <p>Spedycja lotnicza</p>
+                                <p style="font-weight: 100;">Fracht lotniczy to najdroższy, ale też najszybszy sposób na dostawę towarów. Obsługujemy przesyłki lotnicze w imporcie i eksporcie oferując naszym Klientom miejsce w samolotach największych linii lotniczych. Dzięki współpracy z rzetelnymi partnerami na całym świecie zapewniamy wysoką jakość usług oraz atrakcyjne ceny za fracht i dostawę każdego rodzaju towaru na większości szlaków handlowych. Odbieramy ładunek od Klienta, organizujemy dostawę do portu lotniczego nadania i portu lotniczego odbioru aż do drzwi odbiorcy (door-to-door).</p>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+                    <div id="divFLEET" class="h-100" style="padding: 100px 30px 150px 30px" >
+                        <div id="divFleetTEXT" class="text-center">
+                            <p style="color:white; text-shadow: 5px 5px 5px black; font-size: 320%;">Flota naszej firmy</p>
+                            <hr>
+                             <br>
+                             <div class="container">
+                                <div  class="row">
+                                    <div id="divFleet1" class="col-xl-6">
+                                     <img src="img/fleet1.jpg">
+                                    <br>
+                                    <br>
+                                    <h4>CIĄGNIKI SIODŁOWE + NACZEPY</h4>
+                                    <p style="font-weight: 100;">Jest to najpopularniejsza opcja w naszym taborze. Ciągniki siodłowe przystosowane są do ciągnięcia naczep, które umożliwiają transport dużych ilościowo i wagowo towarów. Do wyboru Klientów udostępniamy przede wszystkim naczepy uniwersalne (kryte plandeką), ale posiadamy również izotermy, chłodnie, wywrotki oraz odkryte naczepy przystosowane do transportu towarów ponadgabarytowych.</p>
+                                    <br>
+                                    </div>
+                                 <div id="divFleet2" class="col-xl-6">
+                                  <img src="img/fleet2.jpg">
+                                 <br>
+                                <br>
+                                <h4>SAMOCHODY DOSTAWCZE</h4>
+                                <p style="font-weight: 100;">
+                                Samochody dostawcze, nazywane busami, ze względu na ich dopuszczalną masę całkowitą (do 3,5t) i związanymi z tym udogodnieniami w wielu kwestiach transportu jest to zdecydowanie najszybsza opcja transportu. Transport mniejszego ładunku będzie tańszy jeżeli przewieziemy go wraz z innymi na dużej naczepie, ale jeżeli Klientowi zależy na tym, żeby jego towar nie był wieziony z innymi i dostawa była ekspresowa, zachęcamy do skorzystania z tej opcji.
+                                </p>
+                                <br>
+                                </div>
+                                <div id="divFleet3" class="col-xl-6">
+                                  <img src="img/fleet3.jpg">
+                                  <br>
+                                  <br>
+                                  <h4>SAMOCHODY CIĘŻAROWE</h4>
+                                    <p style="font-weight: 100;">Samochody takie, nazywane potocznie solówkami, posiadamy w większości w wersji oplandekowanej, czyli przystosowanej do przewozu ładunków odpornych na czynniki zewnętrzne, takie jak temperatura. Posiadamy również takie auta w twardej zabudowie, wyposażone w agregat chłodniczy. Dysponujemy także samochodami ciężarowymi wyposażonymi w HDS (hydrauliczny dźwig samochodowy).</p>
+                                </div>
+                                <div id="divFleet4" class="col-xl-6">
+                                 <img src="img/fleet4.jpg">
+                                <br>
+                                <br>
+                                <h4>NACZEPY NISKOPODWOZIOWE</h4>
+                                <p style="font-weight: 100;">Platformy i naczepy niskopodwoziowe, znane również jako Tieflader czy low-loader, wykorzystuje się najczęściej przy transporcie ponadgabarytowym. Wyposażone są w płaski pokład ładunkowy – usytuowany na niskiej wysokości – rampy najazdowe czy systemy modułowe pozwalające na dopasowanie naczepy do transportowanego ładunku. Są to zaawansowane technicznie pojazdy o olbrzymiej ładowności, nawet do kilkuset ton.</p>
+                             </div>
+                            </div>
+                        </div>
+                </div>
+        </div>
+    </div>
+        <div id="divContact">
+            <div id="divContactHEADER">
+                <p>Kontakt</p>
+                <hr>
+            </div>
+            <div id="divContactTEXT">
+                <p>Zadzwoń lub wyślij mail, a my skontaktujemy się z Tobą najszybciej jak to będzie możliwe.</p>
+            </div>
+            <div class="row">
+            <div id="phone" class="col-md-6" >
+                <img src="img/phone.png" style="width:5%;">
+                <br>
+                <br>
+                <p style="font-weight:1000;">+48 123 456 789</p>
+            </div>
+            <div id="mail" class="col-md-6">
+                <br>
+                <img src="img/mail.png" style="width:7%;">
+                <br>
+                <br>
+                <p style="font-weight:1000;">alistrans@gmail.com</p>
+            </div>
+        </div>
+        <div id="footer">
+            <button id="backButton" onclick="window.location.href='#divHeader'">^</button>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+
+</html>
